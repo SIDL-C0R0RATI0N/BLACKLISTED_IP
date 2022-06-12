@@ -2,16 +2,14 @@
 
 
 [![Build](https://img.shields.io/badge/VERSION-1.0.0-purple.svg?style=flat)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 
 
-## What is it
+## LES NOUVEAUTÉS
 
-localGoogoo is a minimal search engine that saves you the stress of manually going through your offline websites looking for information.
+Aucune nouveautés pour le moments...
 
-With localGoogoo you just crawl/index these offline websites and just with a single search query you get the information you need.
-
-## Installation
+## INSTALLATION & UTILISATION
 
 ### Requirements
   * PHP: >= v7.x
@@ -19,37 +17,81 @@ With localGoogoo you just crawl/index these offline websites and just with a sin
   * Database: MySQL
 <br>
 
-Make sure the `localgoogoo` folder is placed somewhere under your local web document root. Your offline websites should also be under local web directory, localGoogoo wont be able to crawl them if they're not accessible via the `http://` protocol.
+Vérifiez que votre site internet utilise le protocole `https://`.
 
-Configuration
+CONFIGURATION
 -------------
 
-Vous devez renommer `index.php` en `plugin.blacklist_ip.php` dans le dossier `plugins` de votre code source.
+Votre page `index.php` et composer comme ci-dessous : 
 
 index.php
+```php
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TITRE DU SITE</title>
+  </head>
+  <body>
+
+  </body>
+</html>
+```
+
+Ensuite, créer un dossier `inc/plugins` puis créer le fichier PHP `plugin.blacklist_ip.php` dans le dossier `inc/plugins/` de votre code source.
+Dans le dossier `inc`, créer le dossier `data` puis le fichier `db_connect.php` dont vous allez écrire le code ci-dessous : 
 
 ```php
+<?php
 // CONNEXION SQL :
 $_DB_SERVER = 'localhost'; // Adresse du serveur MySQL
 $_DB_NAME = 'data_table'; // Nom de la base de données
 $_DB_USERNAME = 'root'; // Nom de l'utilisateur
 $_DB_PASSWORD = ''; // Mot de passe de l'utilisateur
 $_BDD_LOGIN = new PDO('mysql:host='.$_DB_SERVER.';dbname='.$_DB_NAME, $_DB_USERNAME, $_DB_PASSWORD);
+?>
+```
+Dans le fichier `plugin.blacklist_ip.php`, écrivez ou copier/coller le code ci-dessous : 
+```php
+<?php
+include_once('../data/db_connect.php');
+// IP DU VISITEUR : 
+$_VISITOR_IP = $_SERVER['REMOTE_ADDR'];
+// CODE POUR LE BANNISSEMENT + REDIRECTION :
+$_URL_REDIR = 'https://www.monsite.fr/';
+$_PAGE_REDIR = 'blacklisted?ip-address=';
+$_WEBSITE_URL_REDIR = $_URL_REDIR.''.$_PAGE_REDIR;
+foreach($_BDD_LOGIN->query('SELECT * from ban WHERE ban_ip = "'.$_VISITOR_IP.'"') as $_RESULTS_BLOCKED) 
+{
+	if(!empty($_RESULTS_BLOCKED)) 
+	{ 
+		header('Location: '.$_WEBSITE_URL_REDIR.''.$_VISITOR_IP); // Redirection
+		exit();
+	}
+}
+?>
+```
+Sur la page `index.php`, ajouter la ligne suivante : 
+```php
+<?php
+include_once('inc/plugins/plugin.blacklist_ip.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TITRE DU SITE</title>
+  </head>
+  <body>
+
+  </body>
+</html>
 
 ```
+## LICENCE
 
-Note: You can also setup your database information by running `./bin/localgoogoo config`
-
-_You don't have to manually create the database, localGoogoo automatically does that._
-
-After setup, visit (http://localhost/path/to/localgoogoo) you should see something like this:
-
-![Index Page](./screenshots/index_page.png)
-
-And that's it, you can go to the crawled websites page to crawl/index websites, make your life easier.
-
-**If you're new to the Offline-websites thing, then you should check out [HTTrack](https://www.httrack.com/), a software that allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer.**
-
-## License
-
-localGoogoo is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+La licence de BLACKLISTED_IP [MIT license](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/blob/main/LICENSE).
