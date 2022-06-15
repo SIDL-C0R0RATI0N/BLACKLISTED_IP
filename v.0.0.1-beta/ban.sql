@@ -41,6 +41,7 @@ CREATE TABLE `ban` (
 --
 -- Index pour la table `ban`
 --
+
 ALTER TABLE `ban`
   ADD PRIMARY KEY (`ban_id`),
   ADD UNIQUE KEY `ban_ip` (`ban_ip`);
@@ -52,6 +53,7 @@ ALTER TABLE `ban`
 --
 -- AUTO_INCREMENT pour la table `ban`
 --
+
 ALTER TABLE `ban`
   MODIFY `ban_id` mediumint(9) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 COMMIT;
