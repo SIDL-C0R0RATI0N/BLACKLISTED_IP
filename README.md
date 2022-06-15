@@ -1,4 +1,4 @@
-> Check out <a href="https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP"> BLACKLISTED_IP</a>.
+> Check out <a href="https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/releases"> Releases</a>.
 
 
 [![Build](https://img.shields.io/badge/VERSION-2.0.0-purple.svg?style=flat)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP)
