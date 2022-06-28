@@ -1,7 +1,7 @@
 > Check out <a href="https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/releases"> Releases</a>.
 
 
-[![Build](https://img.shields.io/badge/VERSION-2.1.0-BETA-purple.svg?style=flat)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP)
+[![Build](https://img.shields.io/badge/VERSION-2.1.0beta-purple.svg?style=flat)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 
 
