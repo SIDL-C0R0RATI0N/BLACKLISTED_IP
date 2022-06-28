@@ -1,3 +1,3 @@
-CONTRIBUTING
+# CONTRIBUTION : 
 
-[Patreon](https://www.patreon.com/SIDLCORPORATION)
+[ AYMERIC SVRY ] @aymeric-svry

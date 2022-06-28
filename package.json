@@ -1,6 +1,6 @@
 {
     "name": "blacklist-ip-plugin",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "Plugin Officiel de blacklistage d'adresse IP",
     "main": "index",
     "scripts": {
