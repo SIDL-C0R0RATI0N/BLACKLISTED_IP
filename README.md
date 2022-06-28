@@ -7,7 +7,8 @@
 
 ## LES NOUVEAUTÉS
 
-- .
+- [ADD] Chemin de configuration du plugin.
+- [UPDATE] Page(s) `index`, `blacklisted`, `plugin.blacklist_ip`.
 
 ## INSTALLATION & UTILISATION
   ### LES PREREQUIS :
@@ -69,7 +70,9 @@ Dans le fichier `plugin.blacklist_ip.php` et coller le code ci-dessous :
   ```
   > AVERTISSEMENT ! Dans le fichier `server/config.server.php`, Veuillez modifiez `{URL_WEBSITE_HTTPS}`, `{NOM_DU_SITE}`, `{URL_HTTPS}` pour que le plugin fonctionne.
 
-  > Chemin du fichier : `inc/data/db_connect.php` : 
+  ****
+
+  > Chemin du fichier : `server/config.server.php` : 
 
   ```php
     $LANG_SITE = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);

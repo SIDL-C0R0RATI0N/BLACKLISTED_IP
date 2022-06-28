@@ -1,13 +1,14 @@
 > Check out <a href="https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/releases"> Releases</a>.
 
 
-[![Build](https://img.shields.io/badge/VERSION-2.1.0-BETA-purple.svg?style=flat)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP)
+[![Build](https://img.shields.io/badge/VERSION-2.1.0beta-purple.svg?style=flat)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 
 
 ## LES NOUVEAUTÉS
 
-- .
+- [ADD] Chemin de configuration du plugin.
+- [UPDATE] Page(s) `index`, `blacklisted`, `plugin.blacklist_ip`.
 
 ## INSTALLATION & UTILISATION
   ### LES PREREQUIS :
@@ -68,6 +69,19 @@ Dans le fichier `plugin.blacklist_ip.php` et coller le code ci-dessous :
     }
   ```
   > AVERTISSEMENT ! Dans le fichier `server/config.server.php`, Veuillez modifiez `{URL_WEBSITE_HTTPS}`, `{NOM_DU_SITE}`, `{URL_HTTPS}` pour que le plugin fonctionne.
+
+  ****
+
+  > Chemin du fichier : `server/config.server.php` : 
+
+  ```php
+    $LANG_SITE = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    $NAME_SITE = '{NOM_DU_SITE}';
+    $URL_SITE = '{URL_HTTPS}';
+    $_URL_WEBSITE = '{URL_WEBSITE_HTTPS}';
+    $TEL_SUPPORT = '{TEL_SUPPORT}';
+    $IP_VISITOR = $_SERVER['REMOTE_ADDR'];
+  ```
 
 ## LICENCE
 
