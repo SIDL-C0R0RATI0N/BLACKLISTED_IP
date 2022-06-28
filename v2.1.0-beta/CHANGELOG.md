@@ -1,8 +1,9 @@
 # CHANGELOG
 
 ## [2.1.0-beta] MISE À JOUR
-### Mise à jour de correction & ajouts de nouvelle fonctionnalités
-- [UPDATE] 
+### Mise à jour
+- [ADD] Chemin de configuration du plugin.
+- [UPDATE] Page(s) `index`, `blacklisted`, `plugin.blacklist_ip`.
 
 ## [2.0.0-stable] MISE À JOUR DE CORRECTION 
 ### Mise à jour de correction & ajouts de nouvelle fonctionnalités
