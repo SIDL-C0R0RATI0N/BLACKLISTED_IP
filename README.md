@@ -69,6 +69,17 @@ Dans le fichier `plugin.blacklist_ip.php` et coller le code ci-dessous :
   ```
   > AVERTISSEMENT ! Dans le fichier `server/config.server.php`, Veuillez modifiez `{URL_WEBSITE_HTTPS}`, `{NOM_DU_SITE}`, `{URL_HTTPS}` pour que le plugin fonctionne.
 
+  > Chemin du fichier : `inc/data/db_connect.php` : 
+
+  ```php
+    $LANG_SITE = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    $NAME_SITE = '{NOM_DU_SITE}';
+    $URL_SITE = '{URL_HTTPS}';
+    $_URL_WEBSITE = '{URL_WEBSITE_HTTPS}';
+    $TEL_SUPPORT = '{TEL_SUPPORT}';
+    $IP_VISITOR = $_SERVER['REMOTE_ADDR'];
+  ```
+
 ## LICENCE
 
 La licence de BLACKLISTED_IP [MIT license](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/blob/main/LICENSE).
