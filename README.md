@@ -11,6 +11,8 @@
 ***
 [![Followers](https://img.shields.io/github/followers/SIDL-C0R0RATI0N?style=social)](https://github.com/SIDL-C0R0RATI0N/)
 [![Twitter](https://img.shields.io/twitter/follow/SIDLCORPORATION?style=social)](https://www.twitter.com/SIDLCORPORATION)
+[![Facebook](https://img.shields.io/twitter/url?label=Follow%20us%20on%20Facebook&logo=facebook&style=social&url=https%3A%2F%2Fwww.facebook.com%2Fsidl.corporation.officiel)](https://www.facebook.com/sidl.corporation.officiel)
+
 ***
 
 
