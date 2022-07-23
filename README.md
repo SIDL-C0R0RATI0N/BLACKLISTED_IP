@@ -1,8 +1,18 @@
 > Check out <a href="https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/releases"> Releases</a>.
 
+***
+[![Build](https://img.shields.io/github/package-json/v/SIDL-C0R0RATI0N/BLACKLISTED_IP?style=social)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP)
+[![Release](https://img.shields.io/github/v/release/SIDL-C0R0RATI0N/BLACKLISTED_IP?include_prereleases&sort=date&style=social)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/releases)
+<br/>
+[![License](https://img.shields.io/github/license/SIDL-C0R0RATI0N/BLACKLISTED_IP?style=social)](LICENSE.md)
+[![Stars](https://img.shields.io/github/stars/SIDL-C0R0RATI0N/BLACKLISTED_IP?style=social)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/stargazers)
+[![Forks](https://img.shields.io/github/forks/SIDL-C0R0RATI0N/BLACKLISTED_IP?style=social)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/network/members)
+<br/>
+***
+[![Followers](https://img.shields.io/github/followers/SIDL-C0R0RATI0N?style=social)](https://github.com/SIDL-C0R0RATI0N/)
+[![Twitter](https://img.shields.io/twitter/follow/SIDLCORPORATION?style=social)](https://www.twitter.com/SIDLCORPORATION)
+***
 
-[![Build](https://img.shields.io/badge/VERSION-2.1.0beta-purple.svg?style=flat)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP)
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 
 
 ## LES NOUVEAUTÉS
