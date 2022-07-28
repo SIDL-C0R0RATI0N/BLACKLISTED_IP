@@ -57,7 +57,7 @@ If a community member engages in unacceptable behavior, the community organizers
 
 ## 7. Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. contact@sidl-corporation.fr.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. developers@sidl-corporation.fr.
 
 [Reporting guidelines](https://sidl-corporation.fr/)
 
@@ -77,7 +77,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 10. Contact info
 
-contact@sidl-corporation.fr
+developers@sidl-corporation.fr
 
 ## 11. License and attribution
 
