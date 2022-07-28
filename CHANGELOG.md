@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [3.0.0-stable] MISE À JOUR MAJEUR
+### Mise à jour et ajouts de contenues.
+- [ADD] Ajouts d'un système de detection d'utilisateurs.
+- [ADD] Ajouts du plugin `plugin.useronline.php`.
+- [UPDATE] Page `index`.
+
 ## [2.1.0-beta] MISE À JOUR
 ### Mise à jour
 - [ADD] Chemin de configuration du plugin.
