@@ -1,8 +1,8 @@
 {
     "name": "blacklisted-ip",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Official repository of the Blacklisted IP plugin for WordPress.",
-    "main": "readme.md",
+    "main": "README.md",
     "repository": {
         "type": "web",
         "url": "https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP"
