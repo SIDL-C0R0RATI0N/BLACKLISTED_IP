@@ -1,0 +1,15 @@
+{
+    "name": "blacklisted-ip",
+    "version": "0.0.1",
+    "description": "Official repository of the Blacklisted IP plugin for WordPress.",
+    "main": "readme.md",
+    "repository": {
+        "type": "web",
+        "url": "https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP"
+    },
+    "keywords": [
+        "SIDL CORPORATION"
+    ],
+    "author": "SIDL CORPORATION <support@sidl-corporation.fr> (https://www.sidl-corporation.fr/)",
+    "license": "GPL2"
+}
