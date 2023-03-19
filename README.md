@@ -36,4 +36,4 @@ Assurez-vous de ne pas bannir votre propre adresse IP et de sauvegarder la liste
 
 # Changelog
 
-<a href="https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/CHANGELOG.md"> Voir le journale des mises à jours</a>
+<a href="https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/blob/main/CHANGELOG.md"> Voir le journale des mises à jours</a>
