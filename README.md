@@ -9,7 +9,7 @@
 - Requires PHP : 7.4
 - Requires at least : 4.0
 - Tested up to : 6.1.1
-- Stable tag : 0.0.1
+- Stable tag : 1.0.0
 - License : GPL2
 - License URI : http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,12 @@ Le plugin IP Blacklist vous permet de gérer une liste noire des adresses IP qui
 
 # Fonctionnalités
 
-* Aucune information à ceux sujet
+* Ajouter des adresses IP à la liste noire.
+* Supprimer des adresses IP de la liste noire.
+* Voir la liste des adresses IP bannies.
+* Recherche des mises à jour du plugin.
+* À propos du plugin.
+* Changelog du plugin.
 
 # Installation
 
