@@ -1,5 +1,9 @@
 # Blacklisted IP
 
+***
+[![Build](https://img.shields.io/github/package-json/v/SIDL-C0R0RATI0N/BLACKLISTED_IP?style=social)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP) [![Release](https://img.shields.io/github/v/release/SIDL-C0R0RATI0N/BLACKLISTED_IP?include_prereleases&sort=date&style=social)](https://github.com/SIDL-C0R0RATI0N/BLACKLISTED_IP/releases) [![License](https://img.shields.io/github/license/SIDL-C0R0RATI0N/BLACKLISTED_IP?style=social)](LICENSE.md)
+***
+
 - Contributors : @SIDL-C0R0RATI0N
 - Tags : blacklisted, ip blacklisted, blacklist, ip, plugin, wordpress
 - Requires PHP : 7.4
