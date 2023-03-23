@@ -6,10 +6,10 @@
 
 - Contributors : @SIDL-C0R0RATI0N
 - Tags : blacklisted, ip blacklisted, blacklist, ip, plugin, wordpress
-- Requires PHP : 7.4
-- Requires at least : 4.0
+- Requires PHP : 8.x
+- Requires at least : 6.x
 - Tested up to : 6.1.1
-- Stable tag : 1.0.1
+- Stable tag : 2.0.0
 - License : GPL2
 - License URI : http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,7 +25,8 @@ Le plugin IP Blacklist vous permet de gérer une liste noire des adresses IP qui
 * Recherche des mises à jour du plugin.
 * À propos du plugin.
 * Changelog du plugin.
-* [NEW] Page de présentation avec documentation du plugin.
+* Page de présentation avec documentation du plugin.
+* [NEW] Une page qui n'utilise pas le thème définie à était créer et mise en redirection pour les visiteurs en liste noire.
 
 # Installation
 

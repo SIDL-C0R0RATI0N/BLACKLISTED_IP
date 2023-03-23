@@ -1,3 +1,14 @@
+### VERSION [2.0.0] | 24/03/2023
+#### Mise à jour majeur.
+* [FIXED] Nous avons mise à jour la version PHP du Plugin, dont nous utilisons désormais la version 8.x.
+* [FIXED] Nous avons corriger un problème de sécurité.
+* [ADD] Ajouts de la page dédier aux visiteurs en liste noire (Disponible dans vos Pages, à ne pas supprimer).
+* [ADD] Ajouts d'une nouvelles section dans la documentation du plugin.
+* [UPDATE] Mise à jour de sécurités revue, ainsi que la performence du plugin.
+* [UPDATE] Plus de 50 lignes de code on était mise à jour. 
+
+***
+
 ### VERSION [1.0.1] | 21/03/2023
 #### Mise à jour de correction & d'ajouts.
 * [ADD] Traduction du plugin automatique selon la langue de votre navigateur web.

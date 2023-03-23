@@ -1,7 +1,7 @@
 {
     "name": "blacklisted-ip",
-    "version": "1.0.1",
-    "description": "Official repository of the Blacklisted IP plugin for WordPress.",
+    "version": "2.0.0",
+    "description": "The Blacklisted IP plugin allows you to block the IP addresses you want to block access to your WordPress site. Know that we have included different features and that we keep the plugin updated all the time.",
     "main": "README.md",
     "repository": {
         "type": "web",
