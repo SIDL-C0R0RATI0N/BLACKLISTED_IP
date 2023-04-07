@@ -1,3 +1,12 @@
+### VERSION [2.0.1] | 07/04/2023
+#### Ajouts d'un Widget + Correction de bug.
+* [FIXED] Correction que quelques bugs.
+* [ADD] Ajouts d'un Widget au tableau de bord pour un accès plus facile au plugin.
+
+> [ANNONCED UPDATE 2.1.0] Cette version amélioras la page d'information sur l'IP bannis.
+
+***
+
 ### VERSION [2.0.0] | 24/03/2023
 #### Mise à jour majeur.
 * [FIXED] Nous avons mise à jour la version PHP du Plugin, dont nous utilisons désormais la version 8.x.
