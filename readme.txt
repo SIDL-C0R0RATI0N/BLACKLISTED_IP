@@ -3,9 +3,9 @@ Contributors: sidlcorporation
 Tags: Blacklist, blacklist, ip
 Requires PHP: 8.x
 Requires at least: 6.1.1
-Tested up to: 6.2
-Stable tag: 2.0.1
-Version : 2.0.1
+Tested up to: 6.3.1
+Stable tag: 2.1.0
+Version : 2.1.0
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,7 @@ Le plugin IP Blacklist vous permet de gérer une liste noire des adresses IP qui
 * Changelog du plugin.
 * Page de présentation avec documentation du plugin.
 * Page en redirection dédier aux adresse IP bannis.
-* [NEW] Widget sur le tableau de bord disponible pour un accès plus rapide au plugin.
+* Widget sur le tableau de bord disponible pour un accès plus rapide au plugin.
 
 == Installation ==
 
@@ -43,6 +43,14 @@ L'utilisation de ce plugin peut bloquer l'accès à votre site pour les adresses
 Assurez-vous de ne pas bannir votre propre adresse IP et de sauvegarder la liste des adresses IP autorisées avant d'ajouter des adresses à la liste noire.
 
 == Changelog ==
+= 2.1.0 =
+* Correction de bug.
+- [ **CORRECTION** ] Correction que quelques bugs.
+
+> [ANNONCED UPDATE 3.0.0] Cette version auras ainsi pour but de changer le mode de traduction, ainsi, inclureras un nouveau mode pour le bannissement des visiteurs. Des nouvelles fonctionnalités seront ainsi ajouter.
+
+***
+
 = 2.0.1 =
 * Ajouts d'un Widget + Correction de bug.
 - [ **CORRECTION** ] Correction que quelques bugs.

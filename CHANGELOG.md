@@ -1,3 +1,11 @@
+### VERSION [2.1.0] | 16/09/2023
+#### Correction de bug.
+* [FIXED] Correction que quelques bugs.
+
+> [ANNONCED UPDATE 3.0.0] Cette version auras ainsi pour but de changer le mode de traduction, ainsi, inclureras un nouveau mode pour le bannissement des visiteurs. Des nouvelles fonctionnalités seront ainsi ajouter.
+
+***
+
 ### VERSION [2.0.1] | 07/04/2023
 #### Ajouts d'un Widget + Correction de bug.
 * [FIXED] Correction que quelques bugs.
